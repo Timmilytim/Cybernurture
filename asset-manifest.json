@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Cybernurture/static/css/main.c17e663e.css",
+    "main.js": "/Cybernurture/static/js/main.11ea6e10.js",
+    "static/media/home-banner-background.png": "/Cybernurture/static/media/home-banner-background.f574ff33e8d4a799f415.png",
+    "static/media/about-background.png": "/Cybernurture/static/media/about-background.3e8d0dce669cf636d7cd.png",
+    "static/media/home-banner-image.png": "/Cybernurture/static/media/home-banner-image.03e5e52f55857151e89e.png",
+    "static/media/about-background-image.png": "/Cybernurture/static/media/about-background-image.cfbfffc995e2c9af72c4.png",
+    "static/media/Invest.png": "/Cybernurture/static/media/Invest.c7518a830ca46c78fd6a.png",
+    "static/media/Connectivity.png": "/Cybernurture/static/media/Connectivity.35547d64c67f5f7bcb8e.png",
+    "static/media/idea.png": "/Cybernurture/static/media/idea.afdb040023fc3ae2655f.png",
+    "static/media/Cybernurture.png": "/Cybernurture/static/media/Cybernurture.2be153cf0aec7a50e0de.png",
+    "static/media/Logo.svg": "/Cybernurture/static/media/Logo.95da154116b85c5e427714e3866fa33b.svg",
+    "index.html": "/Cybernurture/index.html",
+    "main.c17e663e.css.map": "/Cybernurture/static/css/main.c17e663e.css.map",
+    "main.11ea6e10.js.map": "/Cybernurture/static/js/main.11ea6e10.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c17e663e.css",
+    "static/js/main.11ea6e10.js"
+  ]
+}
