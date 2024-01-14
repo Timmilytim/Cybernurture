@@ -31,7 +31,7 @@ export const Navbar = () => {
       icon: <InfoIcon/>
     },
     {
-      text: "Testimonials",
+      text: "Purpose",
       icon: <CommentRoundedIcon/>
     },
     {
