@@ -39,7 +39,7 @@ const Work = () => {
         
     ];
   return (
-    <div className='work-section-wrapper'>
+    <div className='work-section-wrapper' id="purpose">
         <div className='work-section-top'>
             {/* <p className='primary-subheading'>Purpose</p> */}
             <p className='primary-heading'>Our Purpose</p>
