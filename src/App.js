@@ -5,10 +5,9 @@ import Work from './components/Work';
 import Testimonial from './components/Founder';
 import Contact from './components/Contact'; 
 import Footer from './components/Footer';
+import {createBrowserRouter} from 'react-router-dom';
 
 function App() {
-
-
   return  (
     <div className="App">
      <Home />
@@ -21,3 +20,7 @@ function App() {
   );
 }
 export default App;
+
+export const router = createBrowserRouter([
+  { path: "", element: <App />}
+])
