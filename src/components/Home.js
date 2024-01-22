@@ -20,7 +20,7 @@ const Home = () => {
             <a href='https://x.com/cybernurture?t=TZT-zgQzKJq0IRMlSWesPw&s=09'><button className='secondary-button'> Connect with us <FiArrowRight/>{" "}
             </button></a>
           </div>
-          <div className='home-image-container'>
+          <div className='home-image-section'>
           <img src={BannerImage} alt=""/>
           </div>
         </div>
