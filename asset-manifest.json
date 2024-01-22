@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Cybernurture/static/css/main.c17e663e.css",
-    "main.js": "/Cybernurture/static/js/main.f226339f.js",
+    "main.css": "/Cybernurture/static/css/main.3ea8c04c.css",
+    "main.js": "/Cybernurture/static/js/main.54eb2ec4.js",
     "static/media/home-banner-background.png": "/Cybernurture/static/media/home-banner-background.f574ff33e8d4a799f415.png",
     "static/media/about-background.png": "/Cybernurture/static/media/about-background.3e8d0dce669cf636d7cd.png",
     "static/media/home-banner-image.png": "/Cybernurture/static/media/home-banner-image.03e5e52f55857151e89e.png",
@@ -12,11 +12,11 @@
     "static/media/Cybernurture.png": "/Cybernurture/static/media/Cybernurture.2be153cf0aec7a50e0de.png",
     "static/media/Logo.svg": "/Cybernurture/static/media/Logo.95da154116b85c5e427714e3866fa33b.svg",
     "index.html": "/Cybernurture/index.html",
-    "main.c17e663e.css.map": "/Cybernurture/static/css/main.c17e663e.css.map",
-    "main.f226339f.js.map": "/Cybernurture/static/js/main.f226339f.js.map"
+    "main.3ea8c04c.css.map": "/Cybernurture/static/css/main.3ea8c04c.css.map",
+    "main.54eb2ec4.js.map": "/Cybernurture/static/js/main.54eb2ec4.js.map"
   },
   "entrypoints": [
-    "static/css/main.c17e663e.css",
-    "static/js/main.f226339f.js"
+    "static/css/main.3ea8c04c.css",
+    "static/js/main.54eb2ec4.js"
   ]
 }
