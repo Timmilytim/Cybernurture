@@ -355,9 +355,10 @@ a{
     max-width: 90%;
   }
   .primary-text {
-    text-align: justify;
+    text-align: center;
     max-width: 80%;
   }
+  
   .home-text-section,
   .about-section-text-container {
     justify-content: center;
@@ -395,6 +396,9 @@ a{
   }
   .work-section-bottom {
     margin-top: 1rem !important;
+  }
+  .work-section-text{
+    text-align: justify;
   }
   .contact-form-container {
     padding: 0.5rem !important;
