@@ -14,8 +14,8 @@ const Founder = () => {
         </div>
         <div className='founder-section-bottom'>
             <img src={ProfilePic} alt='' />
-            <p >
-                Oladunni aspires to secure networks and systems while emphasizing education and empowerment, especially for the younger generation. Passionate about equipping them with knowledge and tools, she aims to help them navigate the online realm responsibly, focusing on Africa. Oladunni seeks to bridge the digital divide and empower young Africans to harness technology's positive potential through education on digital skills and creating a positive digital footprint.
+            <p className='primary-text'>
+                 I seek to bridge the digital division and empower young Africans to harness technology's positive potential through education on digital skills and creating a positive digital footprint.
                 <h2>Adejo.O. Oladunni</h2>
             </p>
             <div className='footer-logo-container'>

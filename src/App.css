@@ -237,7 +237,7 @@ a{
 .founder-section-bottom {
   margin-top: 2rem;
   background-color: white;
-  padding: 1.5rem 2rem;
+  padding: 2rem 0.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -355,7 +355,7 @@ a{
     max-width: 90%;
   }
   .primary-text {
-    text-align: center;
+    text-align: justify;
     max-width: 80%;
   }
   .home-text-section,

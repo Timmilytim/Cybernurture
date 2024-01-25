@@ -32,7 +32,7 @@ export const Navbar = () => {
     linkTo: "about",
   },
   {
-    text: "Purpose",
+    text: "Mission",
     icon: <CommentRoundedIcon />,
     linkTo: "purpose",
   },
@@ -53,7 +53,7 @@ export const Navbar = () => {
       <div className='navbar-links-container'>
         <Link to='' spy={true} smooth={true} duration={1000}>Home</Link>
         <Link to='about' spy={true} smooth={true} duration={500}>About</Link>
-        <Link to='purpose' spy={true} smooth={true} duration={500}>Purpose</Link>
+        <Link to='purpose' spy={true} smooth={true} duration={500}>Mission</Link>
         <Link to='contact' spy={true} smooth={true} duration={1000}>Contact</Link>
         <Link to='https://x.com/cybernurture?t=TZT-zgQzKJq0IRMlSWesPw&s=09'><button className='primary-button'>Join Here</button></Link>
       </div>
