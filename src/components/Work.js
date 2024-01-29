@@ -1,4 +1,6 @@
-import React from 'react';
+import React,{useEffect} from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Connectivity from '../Assets/Connectivity.png';
 import Invest from '../Assets/Invest.png';
 import Idea from '../Assets/idea.png';
@@ -38,24 +40,29 @@ const Work = () => {
         },
         
     ];
+
+        useEffect(() => {
+            AOS.init({duration: 2000})
+        },[]);
+
   return (
     <div className='work-section-wrapper' id="purpose">
         <div className='work-section-top'>
             {/* <p className='primary-subheading'>Purpose</p> */}
-            <p className='primary-heading'>Our Mission</p>
-            <p className='primary-text'>Our mission is to provide a safe online learning environment for Africans, helping them develop essential digital skills and become responsible digital citizens. 
+            <p className='primary-heading' data-aos="flip-left">Our Mission</p>
+            <p className='primary-text' data-aos="fade-right">Our mission is to provide a safe online learning environment for Africans, helping them develop essential digital skills and become responsible digital citizens. 
             </p>
-            <p className='primary-text'>Also empowering Africans to excel in the digital age and make a positive impact on the global digital landscape.. 
+            <p className='primary-text' data-aos="fade-left">Also empowering Africans to excel in the digital age and make a positive impact on the global digital landscape.. 
             </p>
         </div>
         <div className='work-section-bottom'>
             {workInfoDate.map((data) =>(
-                    <div className='work-section-info'>
-                    <div className='info-boxes-img-container'>
+                    <div className='work-section-info'data-aos="flip-right">
+                    <div className='info-boxes-img-container' data-aos="zoom-in">
                         <img src={data.image} alt=' ' />
                     </div>
                         <h2>{data.title}</h2>
-                        <p className='work-section-text'>{data.text}</p>
+                        <p className='work-section-text' data-aos="zoom-in">{data.text}</p>
                     </div>
                 ))}
         </div>
