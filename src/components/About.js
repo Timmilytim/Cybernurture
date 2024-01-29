@@ -6,7 +6,7 @@ import AboutBackgroundImage from "../Assets/about-background-image.png";
 
 const About = () => {
     useEffect(() => {
-        AOS.init({duration: 2000})
+        AOS.init({duration: 500})
     },[]);
   return( 
     <div className='about-section-container' id="about">

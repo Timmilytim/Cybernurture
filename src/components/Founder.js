@@ -6,7 +6,7 @@ import Cybernuture from "../Assets/Cybernurture.png";
 
 const Founder = () => {
     useEffect(() => {
-        AOS.init({duration: 1500})
+        AOS.init({duration: 500})
     },[]);
   return (
     <div className='work-section-wrapper' >

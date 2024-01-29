@@ -9,7 +9,7 @@ import { BsWhatsapp } from 'react-icons/bs';
 
 const Footer = () => {
     useEffect(() => {
-        AOS.init({duration: 2000})
+        AOS.init({duration: 500})
     },[]);
   return (
     <div className='footer-wrapper'>
@@ -33,7 +33,7 @@ const Footer = () => {
                 </div>
                 <div className='footer-section-columns' data-aos="fade-right">
                     <span>07060504766</span>
-                    <span>lorem@gmail.com</span>
+                    <span>cybernurture@gmail.com</span>
                     <span>Terms & Conditions</span>
                     <span>Privacy Policy</span>
                 </div>
