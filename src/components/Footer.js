@@ -34,10 +34,6 @@ const Footer = () => {
                 <div className='footer-section-columns' data-aos="fade-right">
                     <span>07060504766</span>
                     <span>lorem@gmail.com</span>
-                    <span>Shdjgreare</span>
-                    <span>Careersdndjfrhe</span>
-                </div>
-                <div className='footer-section-columns' data-aos="fade-right">
                     <span>Terms & Conditions</span>
                     <span>Privacy Policy</span>
                 </div>
