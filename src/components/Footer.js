@@ -32,7 +32,7 @@ const Footer = () => {
                     <span>About</span>
                 </div>
                 <div className='footer-section-columns' data-aos="fade-right">
-                    <span>07060504766</span>
+                    <span>+2347060504766</span>
                     <span>cybernurture@gmail.com</span>
                     <span>Terms & Conditions</span>
                     <span>Privacy Policy</span>
