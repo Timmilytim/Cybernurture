@@ -1,23 +1,26 @@
 {
   "files": {
     "main.css": "/Cybernurture/static/css/main.e502f7b9.css",
-    "main.js": "/Cybernurture/static/js/main.6fb4527d.js",
-    "static/media/home-banner-background.png": "/Cybernurture/static/media/home-banner-background.f574ff33e8d4a799f415.png",
+    "main.js": "/Cybernurture/static/js/main.90219bf4.js",
+    "static/media/home-banner-background.png": "/Cybernurture/static/media/home-banner-background.322608f153ac431344d0.png",
     "static/media/about-background.png": "/Cybernurture/static/media/about-background.3e8d0dce669cf636d7cd.png",
     "static/media/home-banner-image.png": "/Cybernurture/static/media/home-banner-image.03e5e52f55857151e89e.png",
+    "static/media/Connectivity.png": "/Cybernurture/static/media/Connectivity.3d040eef43082eb3ec05.png",
     "static/media/about-background-image.png": "/Cybernurture/static/media/about-background-image.cfbfffc995e2c9af72c4.png",
-    "static/media/Invest.png": "/Cybernurture/static/media/Invest.c7518a830ca46c78fd6a.png",
-    "static/media/Connectivity.png": "/Cybernurture/static/media/Connectivity.35547d64c67f5f7bcb8e.png",
+    "static/media/Innovation.png": "/Cybernurture/static/media/Innovation.6c3d37cb6855fba065d7.png",
+    "static/media/Motivation.png": "/Cybernurture/static/media/Motivation.3066c9570cf25bb23e45.png",
+    "static/media/collaboration.png": "/Cybernurture/static/media/collaboration.5366ba8cd14f66eb197b.png",
+    "static/media/Empowerment.png": "/Cybernurture/static/media/Empowerment.39e693f83903f776d4a5.png",
+    "static/media/Cybernurture.png": "/Cybernurture/static/media/Cybernurture.a2c64f42f023c1d44e59.png",
     "static/media/john-doe-image.png": "/Cybernurture/static/media/john-doe-image.6fedb3d39e78c9cfb201.png",
     "static/media/idea.png": "/Cybernurture/static/media/idea.afdb040023fc3ae2655f.png",
-    "static/media/Cybernurture.png": "/Cybernurture/static/media/Cybernurture.2be153cf0aec7a50e0de.png",
     "static/media/Logo.svg": "/Cybernurture/static/media/Logo.95da154116b85c5e427714e3866fa33b.svg",
     "index.html": "/Cybernurture/index.html",
     "main.e502f7b9.css.map": "/Cybernurture/static/css/main.e502f7b9.css.map",
-    "main.6fb4527d.js.map": "/Cybernurture/static/js/main.6fb4527d.js.map"
+    "main.90219bf4.js.map": "/Cybernurture/static/js/main.90219bf4.js.map"
   },
   "entrypoints": [
     "static/css/main.e502f7b9.css",
-    "static/js/main.6fb4527d.js"
+    "static/js/main.90219bf4.js"
   ]
 }
