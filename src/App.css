@@ -450,7 +450,8 @@ a{
     margin: 1rem 0rem;
   }
   .App {
-    max-width: 90vw;
+    max-width: 80vw;
+    margin: auto;
   }
 }
 @media (max-width: 600px) {
@@ -459,7 +460,8 @@ a{
     display: none;
   }
   .App {
-    max-width: 80vw;
+    max-width: 70vw;
+    margin: auto;
   }
   .contact-form-container {
     padding: 2rem 6rem !important;
