@@ -457,4 +457,14 @@ a{
   .about-background-image-container {
     display: none;
   }
+
+  .contact-form-container {
+    padding: 2rem 6rem !important;
+  }
+  .contact-form-container input {
+    padding: 1rem 2rem !important;
+  }
+  .form-control{
+    padding: 1rem 3.5rem !important;
+  }
 }
