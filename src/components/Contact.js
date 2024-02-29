@@ -9,6 +9,7 @@ const Contact = () => {
       AOS.init({duration: 500})
   },[]);
 
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -47,7 +48,7 @@ const Contact = () => {
           <h1 className='primary-heading' data-aos="fade-down">Have a Question in Mind?</h1>
           <h2 className='primary-heading' data-aos="fade-up">Let us Help You</h2>
           <div className='contact-form-container' data-aos="zoom-in">
-            <form>
+            <form onSubmit={handleSubmit}>
               <label className='form-label'>Name</label><br/>
               <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} required/><br/>
 
