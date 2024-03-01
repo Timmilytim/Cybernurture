@@ -32,8 +32,8 @@ const Footer = () => {
                     <span>About</span>
                 </div>
                 <div className='footer-section-columns' data-aos="fade-right">
-                    <span>+2347060504766</span>
-                    <span>cybernurture@gmail.com</span>
+                    <span><a href=' https://wa.me/+2347060504766'>+2347060504766</a></span>
+                    <span ><a href="mailto:cybernurture@gmail.com">cybernurture@gmail.com</a></span>
                     <span>Terms & Conditions</span>
                     <span>Privacy Policy</span>
                 </div>
