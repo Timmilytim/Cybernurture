@@ -48,15 +48,9 @@ const Contact = () => {
           <h2 className='primary-heading' data-aos="fade-up">Let us Help You</h2>
           <div className='contact-form-container' data-aos="zoom-in">
             <form>
-              <label className='form-label'>Name</label><br/>
-              <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} required/><br/>
-
-              <label className='form-label'>Email</label><br/>
-              <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} required /><br/>
-
-              <label className='form-label'>Message</label><br/>
-              <textarea className="form-control" id="message" name="message" value={formData.message} onChange={handleChange} required/>
-
+              <input type="text" id="name" name="name" placeholder='Name' value={formData.name} onChange={handleChange} required/>
+              <input type="email" id="email" name="email" placeholder='Email' value={formData.email} onChange={handleChange} required />
+              <textarea className="form-control" id="message" name="message" placeholder='Message' value={formData.message} onChange={handleChange} required/>
 
               <button type="submit" className='secondary-button' data-aos="flip-right">Submit</button>
             </form>

@@ -40,7 +40,7 @@ nav {
   font-weight: 600;
   cursor: pointer;
 }
-a{
+a {
   text-decoration: none;
 }
 .primary-button {
@@ -100,9 +100,8 @@ a{
   margin: 1.5rem 0rem;
 }
 .secondary-button {
-  padding: 1rem 2.5rem;
-  background-color: #0B9609;
-  outline: none;
+  padding: 1rem 2rem;
+  background-color: #0b9609;
   border: none;
   border-radius: 5rem;
   font-size: 1.1rem;
@@ -110,16 +109,15 @@ a{
   font-weight: 600;
   color: white;
   transition: 0.2s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin: 1em auto 0 auto;
+  display: block;
 }
 .secondary-button svg {
   margin-left: 0.75rem;
   font-size: 1.5rem;
 }
 .secondary-button:hover {
-  background-color: #0fe456;
+  background-color: #03b53e;
 }
 .about-section-container {
   margin-top: 20rem;
@@ -171,51 +169,56 @@ a{
   font-size: 3rem;
   margin-right: 1rem;
 }
+
+/* Contact */
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .contact-page-wrapper h1 {
   max-width: 900px !important;
 }
-.contact-page-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin: 6rem 0rem;
-}
 .contact-form-container {
-  background-color: white;
-  max-width: 700px;
+  background: white;
+  padding: 2rem;
+  margin: 2rem auto;
   width: 100%;
-  margin-top: 3rem;
-  display: flex;
-  align-items: center;
-  padding: 3rem;
-  border-radius: 5rem;
+  height: 400px;
+  display: grid;
+  place-items: center;
+  max-width: 650px;
+  border-radius: 1rem;
 }
-.form-label{
-  font-size: 20px;
-  color: #4c4c4c;
-  font-weight: 600;
-}
-
-.contact-form-container input {
-  flex: 1;
+form {
+  width: 100%;
   height: 100%;
-  border: none;
-  outline: none;
-  font-size: 1.3rem;
-  padding: 0.5rem 10rem;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-  border: 1px rgba(137, 137, 137, 0.175) solid;
-  border-radius: 10px;
-  text-align: right;
 }
-.form-control{
-  padding: 20px 36%;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+input,
+textarea {
+  display: inline-block;
+  padding: 12px;
   border-radius: 10px;
-  border: 1px rgba(137, 137, 137, 0.175) solid; 
+  border: 1px solid #f7f4f4;
+}
+input {
+  width: 48%;
+  margin: 15px 0px 20px 0px;
+  font-size: large;
+}
+#name {
+  margin-right: 11px;
+}
+#email {
+  margin-left: 12px;
+}
+*::placeholder {
+  font-size: larger;
+}
+textarea {
+  width: 100%;
+  height: 50%;
+  font-size: large;
 }
 .footer-wrapper {
   margin: 6rem 0rem;
@@ -379,7 +382,7 @@ a{
     text-align: center;
     max-width: 80%;
   }
-  
+
   .home-text-section,
   .about-section-text-container {
     justify-content: center;
@@ -418,26 +421,9 @@ a{
   .work-section-bottom {
     margin-top: 1rem !important;
   }
-  .work-section-text{
+  .work-section-text {
     text-align: center;
     max-width: 80%;
-  }
-  .contact-form-container {
-    padding: 2rem 5rem !important;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 1rem !important;
-  }
-  .contact-form-container input {
-    font-size: 1rem !important;
-    max-width: 100%;
-    padding: 1rem 5rem !important;
-    margin-bottom: 0.8rem !important;
-    text-align: center;
-  }
-  .form-control{
-    padding: 1rem 6.2rem !important;
   }
   .footer-wrapper {
     flex-direction: column;
@@ -460,16 +446,20 @@ a{
     display: none;
   }
   .App {
-    max-width: 70vw;
+    max-width: 80vw;
     margin: auto;
   }
+  
   .contact-form-container {
-    padding: 2rem 6rem !important;
+    padding: 1rem;
+    height: max-content;
   }
-  .contact-form-container input {
-    padding: 1rem 2rem !important;
+  #name, #email {
+    width: 100%;
+    margin: 15px 0;
   }
-  .form-control{
-    padding: 1rem 3.5rem !important;
+  textarea {
+    height: 200px;
+    margin: 15px 0 0 0;
   }
 }
