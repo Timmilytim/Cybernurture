@@ -60,7 +60,7 @@ const Contact = () => {
 
 
               <button type="submit" className='secondary-button' data-aos="flip-right">Submit</button>
-            </form>
+            </form>.
 
           </div>
 

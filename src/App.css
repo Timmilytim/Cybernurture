@@ -10,16 +10,13 @@ img {
 }
 .App {
   min-height: 100vh;
-  width: 88vw;
+  width: 90%;
   max-width: 1800px;
   margin: 0rem auto;
 }
 body {
   max-width: 100%;
   overflow-x: hidden;
-}
-
-body {
   background-color: #f6f6f6;
 }
 
@@ -346,9 +343,9 @@ a{
   }
 }
 @media (max-width: 800px) {
-  /* .App {
-    max-width: 800px;
-  } */
+  body{
+    margin-left: -10px;
+  }
   .nav-logo-container {
     max-width: 250px;
   }
@@ -358,9 +355,7 @@ a{
   .navbar-menu-container {
     display: flex;
   }
-  .home-bannerImage-container {
-    max-width: 450px;
-  }
+
   .home-banner-container,
   .about-section-container {
     flex-direction: column-reverse;
@@ -373,7 +368,7 @@ a{
   .home-image-section,
   .about-section-image-container {
     width: 100%;
-    max-width: 400px;
+    max-width: 100%;
   }
   .primary-heading {
     text-align: center;
@@ -405,14 +400,7 @@ a{
   .primary-subheading {
     text-align: center;
   }
-  .watch-video-button {
-    margin-left: 0rem !important;
-    margin-top: 1rem;
-    font-size: 1rem !important;
-  }
-  .watch-video-button svg {
-    margin-right: 0.5rem !important;
-  }
+
   .about-section-image-container {
     margin-right: 0rem !important;
   }
@@ -453,10 +441,7 @@ a{
   .footer-section-columns {
     margin: 1rem 0rem;
   }
-  .App {
-    max-width: 80vw;
-    margin: auto;
-  }
+
 }
 @media (max-width: 600px) {
   .home-bannerImage-container,
@@ -464,7 +449,7 @@ a{
     display: none;
   }
   .App {
-    max-width: 70vw;
+    max-width: 80%;
     margin: auto;
   }
   .contact-form-container {

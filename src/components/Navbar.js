@@ -1,15 +1,7 @@
 import React, { useState } from 'react'
 import Logo from "../Assets/Logo.svg";
 import {HiOutlineBars3} from "react-icons/hi2";
-import {
-  Box,
-  Drawer, 
-  List, 
-  ListItem, 
-  ListItemButton, 
-  ListItemIcon, 
-  ListItemText
-} from "@mui/material";
+import {Box, Drawer, List, ListItem, ListItemButton, ListItemIcon, ListItemText} from "@mui/material";
 import HomeIcon from "@mui/icons-material/Home";
 import InfoIcon from "@mui/icons-material/Info";
 import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
@@ -62,18 +54,17 @@ export const Navbar = () => {
           <HiOutlineBars3 onClick={() => setOpenMenu(true)}/>
         </div>
         <Drawer open={openMenu} onClose={() => setOpenMenu(false)} anchor='right'>
-        <Box sx={{ width: 250 }}
+        <Box sx={{ width: 155 }}
           role="presentation"
           onClick={() => setOpenMenu(false)}
-          onKeyDown={() => setOpenMenu(false)}
-        >
+          onKeyDown={() => setOpenMenu(false)}>
           <List>
             {menuOptions.map((item) => (
               <ListItem key={item.text} disablePadding>
                 <ScrollLink to={item.linkTo} spy={true} smooth={true} duration={500}>
                   <ListItemButton>
                     <ListItemIcon>{item.icon}</ListItemIcon>
-                    <ListItemText primary={item.text} />
+                    <ListItemText primary={item.text}/>
                   </ListItemButton>
                 </ScrollLink>
               </ListItem>

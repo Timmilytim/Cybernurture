@@ -24,7 +24,7 @@ const Footer = () => {
             </div>
         </div>
             <div className='footer-section-two'>
-                <div className='footer-section-columns'data-aos="fade-right">
+                <div className='footer-section-columns' data-aos="fade-right">
                     <span>Quality</span>
                     <span>Help</span>
                     <span >Share</span>
